@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #ffffff9b;
+
 }
 
 .cheader {
@@ -13,14 +14,24 @@ body {
 .navbar {
     background-color: white;
     font-size: 25px;
-}.textoheader {
+}
+
+.textoheader {
     margin-left: 38%;
     font-size: 55px;
-    font-family: sans-serif;
+    font-family: "hanson";
     font-weight: bold;
     font-style: normal;
 
 }
+
 .navbar {
     height: 0px;
+}
+
+@font-face {
+    font-family: "hanson";
+    src: url(../font/Hanson\ Bold\ 700.otf) format()('opentype');
+    font-weight: bold;
+    font-style: normal;
 }
