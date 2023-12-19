@@ -4,15 +4,19 @@ body {
     background-color: #ffffff9b;
 }
 
+@font-face {
+    font-family: "hanson";
+    src: url(../font/Hanson\ Bold\ 700.otf) format()('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 .cheader {
     height: 100px;
     width: 100%;
     background-color: white;
-    font-family: "hanson";
-    font-weight: bold;
-    font-style: normal;
-    font-size: 70px;
-    margin-bottom:  65px;  /* ALTERAR FONTES DE SUBTITULO */
+    margin-bottom: 55px;
+    /* ALTERAR FONTES DE SUBTITULO */
 }
 
 .navbar {
@@ -52,7 +56,6 @@ body {
 }
 
 .textoheader {
-    margin-left: 38%;
     font-size: 55px;
     font-family: "hanson";
     font-weight: bold;
@@ -72,7 +75,7 @@ body {
 }
 
 .navbar {
-    height:50px;
+    height: 50px;
 }
 
 
@@ -82,18 +85,18 @@ body {
     font-family: "hanson";
     font-weight: bold;
     font-style: normal;
-    font-size: 60px;
+    font-size: 50px;
 }
-
-
-
 
 .containerrodape a {
     text-decoration: none;
     color: black;
 }
 
-
+a:hover {
+    text-decoration: none;
+    color: black;
+}
 
 .containerrodape {
     margin-top: 160px;
@@ -125,14 +128,5 @@ body {
     margin-left: 6%;
     height: 100px;
     width: 90%;
-    font-family: "hanson";
-    font-weight: bold;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: "hanson";
-    src: url(../font/Hanson\ Bold\ 700.otf) format()('opentype');
-    font-weight: bold;
-    font-style: normal;
 }

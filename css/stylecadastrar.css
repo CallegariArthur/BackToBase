@@ -1,9 +1,3 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #ffffff9b;
-}
-
 @font-face {
     font-family: "hanson";
     src: url(../font/Hanson\ Bold\ 700.otf) format()('opentype');
@@ -11,45 +5,32 @@ body {
     font-style: normal;
 }
 
-.cheader {
-    height: 100px;
-    width: 100%;
-    background-color: white;
-    font-size: 60px;
-    margin-bottom: 55px;
-    /* ALTERAR FONTES DE SUBTITULO */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff9b;
 }
 
-.linkbtb {
-    color: black;
-    text-decoration: none;
-}
-
-.navbar {
-    background-color: white;
-    font-size: 25px;
-    height: 50px;
-}
-a:hover{
-    text-decoration: none;
-    color: black;
-}
-
-.textoheader {
-
-    font-size: 55px;
+.txtheader {
     font-family: "hanson";
     font-weight: bold;
     font-style: normal;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 55px;
+}
 
+.txtheader a {
+    text-decoration: none;
+    color: white;
 }
 
 .containerrodape a {
     text-decoration: none;
     color: black;
 }
-
-
 
 .containerrodape {
     margin-top: 160px;
