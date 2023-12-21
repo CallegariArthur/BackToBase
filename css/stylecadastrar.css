@@ -15,17 +15,53 @@ body {
     font-family: "hanson";
     font-weight: bold;
     font-style: normal;
-    height: 90px;
+    height: 75px;
     width: 100%;
     background-color: black;
     color: whitesmoke;
-    font-size: 55px;
+    font-size: 47px;
 }
 
 .txtheader a {
     text-decoration: none;
     color: white;
 }
+
+.containerCentral {
+    height: 600px;
+    width: 70%;
+    margin-left: 15%;
+    border: solid 4px rgb(141, 141, 141);
+
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+.containerDadosPessoais {
+    height: 200px;
+    border: 1px solid black;
+
+
+}
+
+.containerEndereco {
+    height: 200px;
+    border: solid 1px black;
+}
+.containerCentral>div{
+    height: 200px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
 
 .containerrodape a {
     text-decoration: none;
