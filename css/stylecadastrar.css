@@ -27,41 +27,38 @@ body {
     color: white;
 }
 
+
+
 .containerCentral {
+    width: 50%;
     height: 600px;
-    width: 70%;
-    margin-left: 15%;
-    border: solid 4px rgb(141, 141, 141);
-
+    border: solid black 1px;
     border-radius: 15px;
-    margin-top: 4%;
 }
 
-.containerDadosPessoais {
-    height: 200px;
-    border: 1px solid black;
 
-
+.containerCentral>div {
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
 }
-
-.containerEndereco {
-    height: 200px;
-    border: solid 1px black;
-}
-.containerCentral>div{
-    height: 200px;
+.containerCentral>p{ 
+    font-size: 25px;
+    margin-top: 30px;
     display: inline-block;
 }
+#inputNomeCompleto {
+    width: 430px;
+}
 
+#inputNumero {
+    width: 65px;
+}
 
-
-
-
-
-
-
-
-
+#complemento,
+#referencia {
+    width: 304px;
+}
 
 .containerrodape a {
     text-decoration: none;
