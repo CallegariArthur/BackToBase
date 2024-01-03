@@ -8,7 +8,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #ffffff9b;
+    background-color: #c0c0c09b;
 }
 
 .txtheader {
@@ -28,37 +28,27 @@ body {
 }
 
 
+.containerCentral>div {
+    width: 40%;
+    height: 100%;
+}
+
+.containerCentral>div>p {
+    margin-left: 15%;
+}
 
 .containerCentral {
+    margin-left: 25%;
     width: 50%;
-    height: 600px;
+    height: 500px;
     border: solid black 1px;
     border-radius: 15px;
-}
-
-
-.containerCentral>div {
-    display: inline-block;
-    margin-left: 40px;
-    margin-top: 20px;
-}
-.containerCentral>p{ 
-    font-size: 25px;
+    background-color: #f7f7f79b;
     margin-top: 30px;
-    display: inline-block;
-}
-#inputNomeCompleto {
-    width: 430px;
+    display: flex;
+    justify-content: center;
 }
 
-#inputNumero {
-    width: 65px;
-}
-
-#complemento,
-#referencia {
-    width: 304px;
-}
 
 .containerrodape a {
     text-decoration: none;
@@ -96,4 +86,11 @@ body {
     height: 100px;
     width: 90%;
 
+}
+
+.classcadatro {
+    font-family: "hanson";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 45px;
 }
