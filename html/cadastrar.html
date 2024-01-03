@@ -34,46 +34,62 @@
 </header>
 
 <body>
-    <form clas="" method="get" class="containerCentral">
-
-        <div><label for="email">E-mail *</label><br><input name="email" id="email" type="email"></div>
-        <div><label for="cpf">CPF *</label><br><input name="cpf" id="cpf" type="text"></div>
-        <div><label for="cep">CEP *</label><br><input name="cep" id="cep" type="text"></div>
-        <div><label for="nomeCompleto">Nome Completo * </label><br><input name="nomeCompleto" id="nomeCompleto"
-                type="text"></div> <br>
-        <div><label for="nascimento">Data de Nascimento *</label><br><input name="nascimento" id="nascicmento"
-                type="date"></div>
-        <div class="form-row align-items-center">
-            <div class="col-auto my-1">
-                <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preferência</label>
-                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                    <option selected>Sexo</option>
-                    <option value="masculino">masculino</option>
-                    <option value="feminino">feminino</option>
-                    <option value="outro">outro</option>
-                </select>
+    <div class="containerprincipal">
+        <center>
+            <p id="pcadastrar">Cadastrar</p>
+            <p id="subpcadastrar">Por favor, preencha os campos abaixo <br> para criar sua conta na loja</p>
+        </center>
+        <div class="containertitulos">
+            <div class="containertitulo">
+                Dados pessoais
+            </div>
+            <div class="containertitulo">
+                Endereço Cadastrado
             </div>
         </div>
-        <div><label for="numero">Número *</label><br><input name="numero" id="numero" type="text"></div>
-        <div><label for="complemento">Complemento*</label><input id="complemento" name="complemento" type="text"></div>
-        <br>
-        <div><label for="senha">Senha *</label><br><input name="senha" id="senha" type="password"></div>
-        <div><label for="confsenha">Confirmar Senha *</label><br><input name="confsenha" id="confsenha" type="password">
-        </div> <br>
-        <div><label for="cel1">Telefone Principal </label><br><input name="cel1" id="cel1" type="text"></div>
-        <div><label for="cel2">Telefone Secundario *</label><br><input name="cel2" id="cel2" type="text"></div>
-        <div><label for="rua">Nome da rua *</label><br><input id="rua" name="rua" type="text"></div>
-        <div><label for="referencia">Referencia de entrega</label><input id="referencia" name="referencia" type="text">
-        </div>
-        <div> <label class="form-check-label" for="defaultCheck1">
-                Receber promoções</label> <br>
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-        </div>
-        <div> <button type="button" class="btn btn-outline-secondary">Cadastrar</button></div>
+        <form clas="" method="get" class="form">
+            <div><label for="email">E-mail *</label><br><input name="email" id="email" type="email"></div>
+            <div><label for="cpf">CPF *</label><br><input name="cpf" id="cpf" type="text"></div>
+            <div><label id="" for="cep">CEP *</label><br><input name="cep" id="cep" type="text"> <a
+                    style="font-size: 10px;" id="link" href="http://www.buscacep.correios.com.br/"> *não sei meu cep</a>
+            </div>
+            <div><label for="nomeCompleto">Nome Completo * </label><br><input name="nomeCompleto" id="nomeCompleto"
+                    type="text"></div>
+            <div><label for="rua">Nome da rua *</label><br><input id="rua" name="rua" type="text"></div><br>
+
+            <div><label for="nascimento">Data de Nascimento *</label><br><input name="nascimento" id="nascicmento"
+                    type="date"></div>
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect"></label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Sexo</option>
+                        <option value="masculino">masculino</option>
+                        <option value="feminino">feminino</option>
+                        <option value="outro">outro</option>
+                    </select>
+                </div>
+            </div>
+            <div><label for="numero">N° *</label><br><input name="numero" id="numero" type="text"></div>
+            <div><label for="complemento">Complemento * </label><br><input id="complemento" name="complemento"
+                    type="text">
+            </div>
+            <br>
+            <div><label for="senha">Senha *</label><br><input name="senha" id="senha" type="password"></div>
+            <div><label for="confsenha">Confirmar Senha *</label><br><input name="confsenha" id="confsenha"
+                    type="password">
+            </div>
+            <div><label for="referencia">ponto de referencia *</label><br><input id="referencia" name="referencia"
+                    type="text">
+            </div>
+            <br>
+            <div><label for="cel1">Telefone Principal *</label><br><input name="cel1" id="cel1" type="text"></div>
+            <div><label for="cel2">Telefone Secundario *</label><br><input name="cel2" id="cel2" type="text"></div>
+            <div> <button type="button" id="cadastrar" class="btn btn-outline-secondary">Cadastrar</button></div>
 
 
-    </form>
-
+        </form>
+    </div>
 
     <footer>
         <div class="containerrodape">

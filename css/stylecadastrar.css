@@ -2,7 +2,6 @@
     font-family: "hanson";
     src: url(../font/Hanson\ Bold\ 700.otf) format()('opentype');
     font-weight: bold;
-    font-style: normal;
 }
 
 body {
@@ -17,7 +16,7 @@ body {
     font-style: normal;
     height: 75px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     color: whitesmoke;
     font-size: 47px;
 }
@@ -28,20 +27,25 @@ body {
 }
 
 
-.containerCentral>div{
+.form>div {
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
-.containerCentral {
-    padding-top: 8%;
+.containerprincipal {
     margin-left: 25%;
     width: 50%;
     height: 500px;
     border: solid black 1px;
     border-radius: 15px;
     background-color: #f7f7f79b;
-    margin-top: 30px;  
+    margin-top: 30px;
+
+}
+
+.form {
+    padding-top: 0%;
+    padding-left: 4.5%;
 }
 
 
@@ -88,4 +92,72 @@ body {
     font-weight: bold;
     font-style: normal;
     font-size: 45px;
+}
+
+#numero {
+    width: 50px;
+
+
+}
+
+#inlineFormCustomSelect {
+    width: 112px;
+    height: 40px;
+    margin-top: -8%;
+
+}
+
+#nomeCompleto,
+#referencia {
+    width: 295px;
+}
+
+#rua {
+    width: 295px;
+}
+
+input {
+    width: 140px;
+    border-radius: 4px;
+
+}
+
+#cadastrar {
+    width: 260px;
+}
+
+#complemento {
+    width: 230px;
+}
+
+#link {
+    margin-left: 70px;
+}
+
+.containertitulos {
+    width: 100%;
+    padding-left: 4.5%;
+}
+
+.containertitulos>div {
+    display: inline-block;
+    margin-left: 10px;  
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.containertitulo {
+
+    width: 295px;
+    height: 32px;
+    border: solid black 2px;
+    background-color: rgb(22, 22, 22);
+    color: whitesmoke;
+    border-radius: 4px;
+}
+#pcadastrar{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: -1px;
 }
