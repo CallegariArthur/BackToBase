@@ -9,19 +9,24 @@ body {
     src: url(../font/Hanson\ Bold\ 700.otf) format()('opentype');
     font-weight: bold;
     font-style: normal;
+
+}
+
+.navbar {
+    height: 60px;
+}
+
+li>a {
+    font-family: "hanson";
+    color: black;
+    font-size: 24px;
 }
 
 .cheader {
     height: 100px;
     width: 100%;
-    background-color: white;
-    margin-bottom: 55px;
+    margin-bottom: 10px;
     /* ALTERAR FONTES DE SUBTITULO */
-}
-
-.navbar {
-    background-color: white;
-    font-size: 25px;
 }
 
 .containerNovaColecao {
@@ -56,11 +61,24 @@ body {
 }
 
 .textoheader {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     font-size: 55px;
     font-family: "hanson";
     font-weight: bold;
     font-style: normal;
 
+}
+
+.botaoentrar {
+
+
+    color: black;
+    padding-right: 2%;
+    padding-top: 2.5%;
+    font-size: 20px;
 }
 
 .linkbtb {
@@ -72,10 +90,6 @@ body {
     height: 650px;
     width: 100%;
 
-}
-
-.navbar {
-    height: 50px;
 }
 
 

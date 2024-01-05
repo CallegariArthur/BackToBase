@@ -11,21 +11,34 @@ body {
 }
 
 .txtheader {
-    font-family: "hanson";
-    font-weight: bold;
-    font-style: normal;
-    height: 75px;
-    width: 100%;
+
     background-color: rgb(22, 22, 22);
     color: whitesmoke;
     font-size: 47px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 55px;
+    font-family: "hanson";
+    font-weight: bold;
+    font-style: normal;
+
+
 }
 
 .txtheader a {
     text-decoration: none;
     color: white;
+
 }
 
+.botaoentrar {
+    color: black;
+    padding-right: 2%;
+    padding-top: 2.5%;
+    font-size: 20px;
+}
 
 .form>div {
     display: inline-block;
@@ -33,10 +46,10 @@ body {
 }
 
 .containerprincipal {
+    box-shadow: 5px 5px 10px #888;
     margin-left: 25%;
     width: 50%;
     height: 500px;
-    border: solid black 1px;
     border-radius: 15px;
     background-color: #f7f7f79b;
     margin-top: 30px;
@@ -123,6 +136,8 @@ input {
 }
 
 #cadastrar {
+
+    margin-left: 2%;
     width: 260px;
 }
 
@@ -141,7 +156,7 @@ input {
 
 .containertitulos>div {
     display: inline-block;
-    margin-left: 10px;  
+    margin-left: 10px;
     text-align: center;
     font-weight: bold;
 
@@ -156,7 +171,8 @@ input {
     color: whitesmoke;
     border-radius: 4px;
 }
-#pcadastrar{
+
+#pcadastrar {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: -1px;
