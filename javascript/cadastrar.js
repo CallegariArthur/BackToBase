@@ -15,36 +15,26 @@ function cadastrar() {
     let referencia = document.getElementById("referencia").value;
     let cel1 = document.getElementById("cel1").value;
     let cel2 = document.getElementById("cel2").value;
-    let usuario = {
+    // let usuario = {
+        
+    //     email: email,
+    //     cpf: cpf,
+    //     nomeCompleto: nomeCompleto,
+    //     rua: rua,
+    //     nascimento: nascimento,
+    //     numero: numero,
+    //     complemento: complemento,
+    //     senha: senha,
+    //     referencia: referencia,
+    //     cel1: cel1,
+    //     cel2: cel2
 
-        email: email,
-
-        cpf: cpf,
-
-        nomeCompleto: nomeCompleto,
-
-        rua: rua,
-
-        nascimento: nascimento,
-
-        numero: numero,
-
-        complemento: complemento,
-
-        senha: senha,
-
-        referencia: referencia,
-
-        cel1: cel1,
-
-        cel2: cel2
-
-    };
-    console.log("Usuário cadastrado:", usuario);
+    // };
+    // console.log("Usuário cadastrado:", usuario);
 }
-function formatCPF() {
+function formatCPF(cpf) {
 
-    let value = input.value;
+    let value = cpf.value;
     value = value.replace(/\D/g, '');
 
     if (value.length > 11) {
@@ -52,13 +42,13 @@ function formatCPF() {
         value = value.substring(0, 11);
 
     }
-    // if (value.length < 9) {
+    // if (value.length < 9) {  
 
     //     document.getElementById("mensagem").innerHTML = "o cpf esta incorreto"
 
     // }
     value = value.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/g, '$1.$2.$3-$4');
 
-    input.value = value;
+    cpf.value = value;
 
 }

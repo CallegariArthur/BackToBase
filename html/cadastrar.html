@@ -50,12 +50,13 @@
         <form class="form" method="get">
             <div><label for="email">E-mail *</label><br><input name="email" id="email" type="email" required>
             </div>
-            <div><label for="cpf">CPF *</label><br><input name="cpf" id="cpf" onblur="formatCPF()" type="text" required>
+            <div><label for="cpf">CPF *</label><br><input name="cpf" id="cpf" onblur="formatCPF(this)" type="text"
+                    required>
 
             </div>
 
-            <div><label for="cep">CEP *</label><br><input name="cep" onblur="" id="cep" type="text"
-                    required> <a style="font-size: 10px;" id="link" href="http://www.buscacep.correios.com.br/"> *não
+            <div><label for="cep">CEP *</label><br><input name="cep" onblur="" id="cep" type="text" required> <a
+                    style="font-size: 10px;" id="link" href="http://www.buscacep.correios.com.br/"> *não
                     sei meu cep</a>
             </div>
             <div><label for="nomeCompleto">Nome Completo * </label><br><input pattern="[A-Za-z]*" name="nomeCompleto"
@@ -102,13 +103,13 @@
 
     <footer>
         <div class="containerrodape">
-            <div>
+            <div class="rodapeflex">
                 <p> Institucional </p>
                 <a href="">Duvidas gerais</a> <br>
                 <a href="">Politica de privacidade</a> <br>
 
             </div>
-            <div>
+            <div class="rodapeflex">
                 <p> Ajuda </p>
                 <a href="">Suporte</a><br>
                 <a href="">Troca</a><br>
@@ -119,12 +120,12 @@
                 <p>Sobre a base </p>
                 <a href="">Sobre a Back to base</a>
             </div>
-            <div>
+            <div class="rodapeflex">
                 <p>Fale Conosco</p>
                 SAC (21)2020-2023 <br>
                 SAC - Seg a sexta - 09:00h-18:00h <br>
-                email:sac@backtobase.com.br <div>
-
+                sac@backtobase
+                <div class="imagemrodape">
                     <a href="https://www.instagram.com/accounts/login/?source=auth_switcher"><img
                             src="../imagens/instragram.avif" width="30px" height="30px" alt=""> </a>
                     <a href="https://web.facebook.com/?locale=pt_BR&_rdc=1&_rdr"><img src="../imagens/facebook.png"
@@ -139,9 +140,9 @@
             </div>
         </div>
         <div class="divrodape">
-            2023@ Back to Base. Todos os direitos reservados Back to Base comércio de roupas, calçados e acessórios
+            <!-- 2023@ Back to Base. Todos os direitos reservados Back to Base comércio de roupas, calçados e acessórios
             ltda. <br>
-            CNPJ - 37.595.430.0001-48 Rua A, 444 - Pau Grande, Magé - CEP-25935-294
+            CNPJ - 37.595.430.0001-48 Rua A, 444 - Pau Grande, Magé - CEP-25935-294 -->
         </div>
     </footer>
 
