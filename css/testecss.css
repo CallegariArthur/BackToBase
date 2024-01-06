@@ -1,0 +1,100 @@
+/* Estilos básicos para responsividade */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.divrodape {
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Estilos específicos para cada elemento da página */
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #222;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos específicos para formulário */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+form label {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Estilos para imagens */
+
+.divlogo img {
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Estilos para a barra de navegação */
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #222;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #444;
+}

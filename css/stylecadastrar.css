@@ -12,7 +12,7 @@ body {
 
 .txtheader {
 
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(0, 0, 0);
     color: whitesmoke;
     font-size: 47px;
     height: 80px;
@@ -55,6 +55,32 @@ body {
     margin-top: 30px;
 
 }
+
+@media screen and (max-width:500px) {
+
+    .containerprincipal {
+        width: 70%;
+        height: 850px;
+        border-radius: 15px;
+        background-color: #f7f7f79b;
+        margin-top: 30px;
+        margin-left: 15%;
+    }
+
+    .linkbtb {
+        margin-top: 20px;
+        font-size: 23px;
+    }
+
+    #cadastrar {
+        margin-top: 10px;
+        margin-left: 3%;
+        width: 294px;
+    }
+
+}
+
+
 
 .form {
     padding-top: 0%;
@@ -135,11 +161,14 @@ input {
 
 }
 
-#cadastrar {
-
-    margin-left: 2%;
-    width: 260px;
+@media screen and (min-width:1300px) {
+    #cadastrar {
+        margin-left: 2%;
+        width: 260px;
+    }
 }
+
+
 
 #complemento {
     width: 230px;

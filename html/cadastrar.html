@@ -50,15 +50,17 @@
         <form class="form" method="get">
             <div><label for="email">E-mail *</label><br><input name="email" id="email" type="email" required>
             </div>
-            <div><label for="cpf">CPF *</label><br><input name="cpf" id="cpf" pattern="[0-9]*" type="text" required>
+            <div><label for="cpf">CPF *</label><br><input name="cpf" id="cpf" onblur="formatCPF()" type="text" required>
+
             </div>
-            <div><label for="cep">CEP *</label><br><input name="cep" onblur="" id="cep" type="text" required> <a
-                    style="font-size: 10px;" id="link" href="http://www.buscacep.correios.com.br/"> *não
+
+            <div><label for="cep">CEP *</label><br><input name="cep" onblur="" id="cep" type="text"
+                    required> <a style="font-size: 10px;" id="link" href="http://www.buscacep.correios.com.br/"> *não
                     sei meu cep</a>
             </div>
             <div><label for="nomeCompleto">Nome Completo * </label><br><input pattern="[A-Za-z]*" name="nomeCompleto"
                     id="nomeCompleto" type="text" required></div>
-            <div><label for="rua">Nome da rua *</label><br><input id="rua" name="rua" type="text" required></div><br>
+            <div><label for="rua">Endereço *</label><br><input id="rua" name="rua" type="text" required></div><br>
 
             <div><label for="nascimento">Data de Nascimento *</label><br><input name="nascimento" id="nascicmento"
                     type="date"></div>
@@ -82,6 +84,7 @@
             <div><label for="senha">Senha *</label><br><input name="senha" id="senha" type="password" required></div>
             <div><label for="confsenha">Confirmar Senha *</label><br><input name="confsenha" id="confsenha"
                     type="password" required>
+
             </div>
             <div><label for="referencia">ponto de referencia *</label><br><input id="referencia" name="referencia"
                     type="text">
@@ -92,7 +95,7 @@
             </div>
             <div><label for="cel2">Telefone Secundario *</label><br><input name="cel2" pattern="[0-9]*" id="cel2"
                     type="text"></div>
-            <button type="submit" id="cadastrar" class="btn btn-outline-dark">Cadastrar</button>
+            <button type="submit" id="cadastrar" class="btn btn-outline-dark" onclick="cadastrar()">Cadastrar</button>
 
         </form>
     </div>
