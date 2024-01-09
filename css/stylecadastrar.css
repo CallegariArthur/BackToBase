@@ -60,7 +60,7 @@ body {
 
 .form {
     padding-top: 0%;
-    padding-left: 4.5%;
+    padding-left: 2.8%;
 }
 
 
@@ -140,7 +140,7 @@ input {
 
     .containertitulos {
         width: 100%;
-        padding-left: 4.5%;
+        padding-left: 3.0%;
     }
 
     .containertitulos>div {
@@ -199,10 +199,11 @@ input {
     }
 
     .containertitulo {
-
-        border: solid #f7f7f79b 2px;
-        background-color: #f7f7f79b(22, 22, 22);
-        color: #f7f7f79b;
+        margin-top: 900px;
+        position: absolute;
+        font-size: 1px;
+        color: #c0c0c0;
+        ;
         border-radius: 4px;
     }
 
