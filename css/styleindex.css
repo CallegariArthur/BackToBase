@@ -123,7 +123,7 @@ a:hover {
 
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:475px) {
     .linkbtb {
         margin-top: 20px;
         font-size: 25px;
