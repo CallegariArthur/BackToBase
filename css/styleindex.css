@@ -22,14 +22,16 @@ li>a {
     font-size: 24px;
 }
 
+li>a:hover {
+    color: rgb(249, 108, 0);
+}
+
 .cheader {
     height: 100px;
     width: 100%;
     margin-bottom: 50px;
     /* ALTERAR FONTES DE SUBTITULO */
 }
-
-
 
 
 .textoheader {
@@ -45,6 +47,7 @@ li>a {
 }
 
 
+
 .botaoentrar {
 
     color: black;
@@ -55,6 +58,11 @@ li>a {
 
 .linkbtb {
     margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.linkbtb:hover {
     color: black;
     text-decoration: none;
 }
@@ -85,10 +93,6 @@ li>a {
     color: black;
 }
 
-a:hover {
-    text-decoration: none;
-    color: black;
-}
 
 .containerrodape {
     margin-top: 160px;
@@ -100,7 +104,6 @@ a:hover {
 }
 
 .containerrodape>div {
-    margin-left: 50px;
     width: 20%;
     height: 150px;
 
@@ -172,6 +175,26 @@ a:hover {
         margin-top: 10px;
     }
 
+    .containerrodape>div {
+
+        width: 20%;
+        height: 100px;
+    }
+
+    .containerrodape>div>p {
+        font-family: "hanson";
+        font-weight: bold;
+        font-style: normal;
+        font-size: 11px;
+    }
+
+    .containerrodape {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
 }
 
 @media screen and (min-width:1080px) {
@@ -209,4 +232,26 @@ a:hover {
         width: 20%;
     }
 
+    .containerrodape {
+        margin-top: 160px;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .containerrodape>div {
+        margin-left: 50px;
+        width: 20%;
+        height: 150px;
+
+    }
+
+    .containerrodape>div>p {
+        font-family: "hanson";
+        font-weight: bold;
+        font-style: normal;
+        font-size: 33px;
+    }
 }
