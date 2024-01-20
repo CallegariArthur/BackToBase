@@ -9,20 +9,7 @@ body {
     src: url(../font/Hanson\ Bold\ 700.otf) format()('opentype');
     font-weight: bold;
     font-style: normal;
-}
 
-.cheader {
-    height: 100px;
-    width: 100%;
-    background-color: white;
-    font-size: 60px;
-    margin-bottom: 55px;
-    /* ALTERAR FONTES DE SUBTITULO */
-}
-
-.linkbtb {
-    color: black;
-    text-decoration: none;
 }
 
 .navbar {
@@ -35,28 +22,72 @@ li>a {
     font-size: 24px;
 }
 
-a:hover {
-    text-decoration: none;
-    color: black;
+li>a:hover {
+    color: rgb(249, 108, 0);
+}
+
+.cheader {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+    /* ALTERAR FONTES DE SUBTITULO */
 }
 
 .textoheader {
     height: 60px;
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    font-size: 55px;
+    font-size: 29.519px;
     font-family: "hanson";
     font-weight: bold;
     font-style: normal;
 
 }
 
+.botaoentrar {
+
+    color: black;
+    padding-right: 2%;
+    padding-top: 2.5%;
+    font-size: 20px;
+}
+
+.linkbtb {
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.linkbtb:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .containerrodape a {
     text-decoration: none;
     color: black;
 }
-
 
 
 .containerrodape {
@@ -69,7 +100,6 @@ a:hover {
 }
 
 .containerrodape>div {
-    margin-left: 50px;
     width: 20%;
     height: 150px;
 
@@ -89,5 +119,62 @@ a:hover {
     margin-left: 6%;
     height: 100px;
     width: 90%;
+
+}
+
+
+@media screen and (min-width:1080px) {
+    .containerrodape {
+        margin-top: 160px;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .containerrodape>div {
+        margin-left: 50px;
+        width: 20%;
+        height: 150px;
+
+    }
+
+    .containerrodape>div>p {
+        font-family: "hanson";
+        font-weight: bold;
+        font-style: normal;
+        font-size: 33px;
+    }
+}
+
+
+
+@media screen and (max-width:475px) {
+
+    .linkbtb {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .containerrodape>div {
+
+        width: 20%;
+        height: 100px;
+    }
+
+    .containerrodape>div>p {
+        font-family: "hanson";
+        font-weight: bold;
+        font-style: normal;
+        font-size: 11px;
+    }
+
+    .containerrodape {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
 
 }
