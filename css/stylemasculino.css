@@ -66,24 +66,6 @@ li>a:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .containerrodape a {
     text-decoration: none;
     color: black;
@@ -124,6 +106,22 @@ li>a:hover {
 
 
 @media screen and (min-width:1080px) {
+    .containerroupa1 {
+        width: 90%;
+        margin-left: 5%;
+        height: 300px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .containerroupa1>div {
+        width: 20%;
+        height: 250px;
+        border: solid black 1px;
+    }
+
+    .containerroupa2 {}
+
     .containerrodape {
         margin-top: 160px;
         height: 250px;
