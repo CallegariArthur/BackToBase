@@ -188,7 +188,7 @@ input {
 
 }
 
-@media screen and (max-width:490px) {
+@media screen and (max-width:479px) {
 
     .containertitulos {
         color: #f7f7f79b;
