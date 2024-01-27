@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #c0c0c09b;
+    background-color: hsla(0, 0%, 75%, 0.608);
 }
 
 .txtheader {
@@ -203,7 +203,7 @@ input {
         position: absolute;
         font-size: 1px;
         color: #c0c0c0;
-        ;
+        
         border-radius: 4px;
     }
 

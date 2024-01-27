@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #c0c0c09b;
+}
+
+.txtheader {
+    padding-top: 5px;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    font-size: 47px;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    font-family: "hanson";
+    font-weight: bold;
+    font-style: normal;
+
+
+}
+
+
+.botaoes {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#botaocarrinho {
+
+    margin-left: 20px;
+}
+
+
+.txtheader a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#preview {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#preview>div {
+
+    align-items: center;
+    margin-top: 2%;
+    height: 500px;
+    width: 700px;
+}
+
+#preview>div>img {
+    width: 700px;
+    height: 500px;
+}
+@media screen and (max-width:479px) {
+    .txtheader{ padding-top: 10px;
+        height: 70px;
+        font-size: 30px;
+    }
+}
