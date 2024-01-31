@@ -64,10 +64,77 @@ body {
     height: 500px;
 }
 
+@media screen and (min-width:1080px) {
+    .containerrodape {
+        margin-top: 100px;
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerrodape>div {
+        margin-left: 50px;
+        width: 20%;
+        height: 150px;
+
+    }
+
+    .containerrodape>div>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .imagemrodape>a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .containerrodape>div>p {
+        font-family: "hanson";
+        font-weight: bold;
+        font-style: normal;
+        font-size: 33px;
+    }
+
+}
+
 @media screen and (max-width:479px) {
+
+    .linkbtb {
+        margin-top: 20px;
+        font-size: 23px;
+    }
+
     .txtheader {
         padding-top: 10px;
         height: 70px;
         font-size: 30px;
     }
+
+    .containerrodape>div {
+
+        width: 20%;
+        height: 100px;
+    }
+
+    #iacess {
+        color: white;
+    }
+
+    .containerrodape>div>p {
+        font-family: "hanson";
+        font-weight: bold;
+        font-style: normal;
+        font-size: 11px;
+    }
+
+    .containerrodape {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
 }
