@@ -156,6 +156,7 @@ li>a:hover {
         margin-left: 10%;
     }
 
+
     .txtnovacolecao,
     .txtconfiradestaques {
         font-size: 20px;
@@ -173,6 +174,11 @@ li>a:hover {
         width: 90%;
         margin-left: 5%;
         margin-top: 10px;
+    }
+    .containerDestaques>div>img {
+        height: 90%;
+        width: 80%;
+       
     }
 
     .containerrodape>div {
