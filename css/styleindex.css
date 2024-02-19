@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-    height: 60px;
+    height: 10px;
 }
 
 li>a {
@@ -85,13 +85,15 @@ li>a:hover {
 
 }
 
-.ientrar{
-    text-decoration: none; 
+.ientrar {
+    text-decoration: none;
     color: black;
 }
-.ientrar:hover{
+
+.ientrar:hover {
     color: rgb(255, 128, 0);
 }
+
 .txtnovacolecao,
 .txtconfiradestaques {
     margin-top: 20px;
@@ -144,10 +146,48 @@ li>a:hover {
 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:420px) {
+    .diviconelogin {
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 6.5%;
+        right: 5%;
+    }
+
+    #ibuscar {
+        margin-right: 13%;
+        width: 190px;
+    }
+
+    .imglogintam {
+        width: 25px;
+        height: 25px;
+    }
+
+
+    li>a {
+        font-family: "hanson";
+        color: black;
+        font-size: 14px;
+    }
+
+    li>a:hover {
+        color: rgb(249, 108, 0);
+    }
+
+    .cheader {
+        display: inline-block;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
     .linkbtb {
-        margin-top: 20px;
-        font-size: 30px;
+        margin-top: 10px;
+        font-size: 22px;
     }
 
     .carousel-inner>div>img {
