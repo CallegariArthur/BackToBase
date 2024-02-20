@@ -12,10 +12,6 @@ body {
 
 }
 
-.navbar {
-    height: 10px;
-}
-
 li>a {
     font-family: "hanson";
     color: black;
@@ -26,13 +22,21 @@ li>a:hover {
     color: rgb(249, 108, 0);
 }
 
-.cheader {
-    height: 100px;
-    width: 100%;
-    margin-bottom: 60px;
+
+/* 
+.botaomodal{
+    margin-bottom: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.botaomodal>button{
+    background-color: rgb(249, 108, 0);
+}
+.botaomodal>button:hover { 
+    background-color: black;
 
-
+} */
 .textoheader {
     margin-left: 15%;
     width: 70%;
@@ -59,7 +63,7 @@ li>a:hover {
     display: flex;
     justify-content: space-around;
     position: absolute;
-    top: 4%;
+    top: 4.5%;
     right: 2%;
 }
 
@@ -69,7 +73,7 @@ li>a:hover {
 }
 
 .linkbtb {
-    margin-top: 20px;
+    margin-top: 30px;
     color: black;
     text-decoration: none;
 }
@@ -178,8 +182,8 @@ li>a:hover {
     }
 
     .cheader {
+        height: 50px;
         display: inline-block;
-        height: 100px;
         width: 100%;
         margin-bottom: 30px;
     }
