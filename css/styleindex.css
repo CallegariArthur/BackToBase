@@ -63,7 +63,7 @@ li>a:hover {
     display: flex;
     justify-content: space-around;
     position: absolute;
-    top: 4.5%;
+    top: 4.1%;
     right: 2%;
 }
 
@@ -276,7 +276,10 @@ li>a:hover {
         margin-left: 3%;
 
     }
-
+    #ibuscar {
+        border: #d3d3d3;
+        background-color: #d3d3d3;
+    }
     .containerNovaColecao>div {
         background-color: rgb(191, 191, 191);
         height: 350px;
