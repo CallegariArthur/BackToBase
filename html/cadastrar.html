@@ -28,7 +28,7 @@
             <a href="../index.html" class="linkbtb">BACK TO BASE</a>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" class="alturanavbar">
-            <a class="navbar-brand" href="#">Volte para a base</a>
+            <a class="navbar-brand" href="../index.html">Volte para a base</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
                 aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
                 <span class="navbar-toggler-icon"></span>
@@ -36,12 +36,12 @@
 
             <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">Roupas</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
@@ -50,10 +50,10 @@
 
     </header>
     <div class="containerprincipal">
-        <center>
-            <p id="pcadastrar">Cadastrar</p>
-            <p id="subpcadastrar">Por favor, preencha os campos abaixo <br> para criar sua conta na loja</p>
-        </center>
+
+        <p id="pcadastrar">Cadastrar</p>
+        <p id="subpcadastrar">Por favor, preencha os campos abaixo <br> para criar sua conta na loja</p>
+
         <div class="containertitulos">
             <div class="containertitulo">
                 Dados pessoais
@@ -63,20 +63,20 @@
             </div>
         </div>
         <form class="form" method="get">
-            <div><label for="email">E-mail *</label><br><input name="email" id="email" type="email" required>
-            </div>
+            <!-- <div><label for="email">E-mail *</label><br><input name="email" id="email" type="email" required>
+            </div> -->
             <div><label for="cpf">CPF *</label><br><input name="cpf" id="cpf" onblur="formatCPF(this)" type="text"
                     required>
 
             </div>
 
-            <div><label for="cep">CEP *</label><br><input name="cep" onblur="" id="cep" type="text" required> <a
+            <!-- <div><label for="cep">CEP *</label><br><input name="cep" onblur="" id="cep" type="text" required> <a
                     style="font-size: 10px;" id="link" href="http://www.buscacep.correios.com.br/"> *não
                     sei meu cep</a>
-            </div>
+            </div> -->
             <div><label for="nomeCompleto">Nome Completo * </label><br><input pattern="[A-Za-z]*" name="nomeCompleto"
                     id="nomeCompleto" type="text" required></div>
-            <div><label for="rua">Endereço *</label><br><input id="rua" name="rua" type="text" required></div><br>
+            <!-- <div><label for="rua">Endereço *</label><br><input id="rua" name="rua" type="text" required></div><br> -->
 
             <div><label for="nascimento">Data de Nascimento *</label><br><input name="nascimento" id="nascicmento"
                     type="date"></div>
@@ -91,21 +91,20 @@
                     </select>
                 </div>
             </div>
-            <div><label for="numero">N° *</label><br><input name="numero" id="numero" pattern="[0-9]*" type="text"
+            <!-- <div><label for="numero">N° *</label><br><input name="numero" id="numero" pattern="[0-9]*" type="text"
                     required></div>
             <div><label for="complemento">Complemento * </label><br><input id="complemento" name="complemento"
                     type="text">
-            </div>
-            <br>
+            </div> -->
+
             <div><label for="senha">Senha *</label><br><input name="senha" id="senha" type="password" required></div>
             <div><label for="confsenha">Confirmar Senha *</label><br><input name="confsenha" id="confsenha"
                     type="password" required>
 
             </div>
-            <div><label for="referencia">ponto de referencia *</label><br><input id="referencia" name="referencia"
+            <!-- <div><label for="referencia">ponto de referencia *</label><br><input id="referencia" name="referencia"
                     type="text">
-            </div>
-            <br>
+            </div> -->
             <div><label for="cel1">Telefone Principal *</label><br><input name="cel1" pattern="[0-9]*" id="cel1"
                     type="text" required>
             </div>
