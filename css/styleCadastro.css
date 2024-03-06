@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+.divImagemLogo{
+
+
+display: flex;
+justify-content: center;
+margin-top:10% ;
+
+}
+.sora-divHeader {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.divHeader {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+
+}
+
+.divHeader>p {
+    font-size: 2rem;
+    margin-top: 2%;
+}
+
+.containerPrincipal {
+    display: flex;
+    margin-top: -5%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bolder;
+
+}
+
+.textoinput {
+    text-align: left;
+    margin-left: 30%;
+    width: 40%;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+}
+
+.containerPrincipal>img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#iemail,
+#isenha {
+    border: 1px solid black;
+    height: 40px;
+    width: 40.5%;
+
+}
+
+#isenha {
+    margin-top: 1%;
+}
+
+#iqualsenha {
+    margin-top: 5%;
+}
