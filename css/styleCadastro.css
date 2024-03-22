@@ -1,12 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 
 .divImagemLogo {
-
-
     display: flex;
     justify-content: center;
     margin-top: 10%;
-
 }
 
 
@@ -29,20 +26,24 @@
 
 
 .containerPrincipal {
-    margin-left: 25%;
     display: flex;
-    margin-top: -10%;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 50%;
-    height: 500px;
+    width: 100%;
+    height: 400px;
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: bolder;
-    margin-bottom: -5%;
     flex-wrap: wrap;
+
+}
+
+.containerPrincipal>form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -51,10 +52,11 @@
     margin-left: 30%;
     width: 40%;
     font-size: 1.2rem;
-    margin-bottom: 3%;
 }
 
-.containerPrincipal>img {}
+.botaoEntrar>a {
+    color: black;
+}
 
 .botaoEntrar {
     margin-left: 40%;
@@ -64,10 +66,20 @@
     justify-content: space-between;
 }
 
-@media (max-width:600px) {
+#emailsenha {
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+}
+
+@media (max-width:604px) {
+    .divHeader {
+
+        font-size: 38px;
+
+    }
+
 
     .containerPrincipal {
-
         margin-bottom: -18%;
 
     }
@@ -78,8 +90,31 @@
         width: 40%;
     }
 
+    .textoinput {
+        font-size: 1rem;
+    }
 }
 
+@media (min-width:1820px) {
+
+    .divImagemLogo {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5%;
+    }
+
+    .divHeader {}
+
+    .containerPrincipal {
+        margin-bottom: -2%;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .botaoEntrar {}
+
+    .textoinput {}
+}
 
 #iemail,
 #isenha {
@@ -89,10 +124,15 @@
 
 }
 
-#isenha {
-    margin-top: 1%;
-}
+#isenha {}
 
 #iqualsenha {
-    margin-top: 5%;
+    margin-top: 3%;
+}
+
+.botao {
+    display: flex;
+    width: 50%;
+    height: 45px;
+
 }

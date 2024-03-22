@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+.divImagemLogo {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.divHeader {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.botao {
+    display: flex;
+    width: 50%;
+    height: 45px;
+
+}
+
+.containePrincipal {
+
+    
+}
