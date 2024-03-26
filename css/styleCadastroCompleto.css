@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 
+body {
+    border: 0px;
+    margin: 0px;
+}
+
 .divImagemLogo {
+    margin-top:1.5%;
     display: flex;
     justify-content: center;
 }
@@ -23,13 +29,61 @@
 }
 
 .botao {
-    display: flex;
-    width: 50%;
-    height: 45px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 95px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-ransition: all 0.5s;
+    width: 51%;
 
 }
 
-.containePrincipal {
+.botao:hover {
+    background-color: #424242;
+}
 
-    
+.botao:active {
+    background-color: #000000;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+}
+
+.containerPrincipal {
+    margin-top: 1.5%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 25%;
+    padding-left: 16%;
+}
+
+input {
+    border: 0.5px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    width: 50%;
+    margin-bottom: 1%;
+    height: 35px;
+}
+
+.nomesobrenome>input {
+    width: 24.6%;
+}
+
+.datanascim {
+    width: 105%;
+}
+
+#itermos01 {
+    background-color: black;
+    width: 20px;
+    height: 15px;
+}
+
+p {
+    font-size: 12px;
 }

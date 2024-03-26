@@ -66,6 +66,29 @@
     justify-content: space-between;
 }
 
+.botao {
+    border: 0;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.botao:hover {
+    background-color: #313131;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.botao:active {
+    background-color: #484848;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+}
+
 #emailsenha {
     font-size: 14px;
     color: rgb(115, 115, 115);

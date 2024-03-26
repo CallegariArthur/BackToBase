@@ -28,9 +28,10 @@
         <form action="">
 
             <div><input placeholder="Email" type="text" name="email" id="iemail"></div>
-            <div><input type="text" placeholder="Nome*" name="nome" id="inome"></div>
-            <div><label for="sobrenome"></label><input type="text" placeholder="Sobrenome*" name="sobrenome"
-                    id="isobrenome"></div>
+            <div class="nomesobrenome"><input type="text" placeholder="Nome*" name="nome" id="inome">
+                <label for="sobrenome"></label><input type="text" placeholder="Sobrenome*" name="sobrenome"
+                    id="isobrenome">
+            </div>
             <div><label for="senha"></label><input type="text" placeholder="senha" name="senha" id="isenha">
                 <p>X Mínimo de 8 caracteres
                 </p>
@@ -44,8 +45,8 @@
                 </p>
             </div>
 
-            <div><label for=""><input placeholder="Data de nascimento" type="datetime" name="datadeNascimento"
-                        id=""></label></div>
+            <div><label for=""><input placeholder="Data de nascimento" type="date" class="datanascim"
+                        name="datadeNascimento" id=""></label></div>
             <div><label for="">Cep*</label><br><input type="text" name="" id=""></div>
             <p>
                 Rua A, Vila Serrana(Vila inhomorim)
@@ -57,8 +58,8 @@
                 <label for="">Concordo com a Política de privacidade e os Termos de uso da Base.</label><input
                     type="checkbox" name="termos01" id="itermos01">
             </div>
-            <input type="button" value="entrar" class="botao">
 
+            <button class="botao">Entrar</button>
         </form>
     </div>
 </body>
